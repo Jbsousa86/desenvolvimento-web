@@ -28,11 +28,13 @@ header{
 nav ul{
     display: flex;
     gap: 20px;
+    list-style: none;
 }
-nav ul li {
+nav ul li a{
     display: inline;
+    text-decoration: none;
 }
-nav ul li:hover{
+nav ul li a:hover{
     color: black;
     cursor: pointer;
 }
