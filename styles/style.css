@@ -33,6 +33,7 @@ nav ul{
 nav ul li a{
     display: inline;
     text-decoration: none;
+    color: #666;
 }
 nav ul li a:hover{
     color: black;
@@ -55,25 +56,40 @@ h2{
 }
 h2 span{
     color: #3498db;
+    font-weight: bold;
 }
 p{
-    font-size: 18px;
+    font-size: 16px;
     color: #666;
-    margin-top: 10px;
+    line-height: 25px;
+    margin-top: 36px;
+    margin-bottom: 32px;
+    
 }
 p span{
     font-weight: bold;
-    color: black;
+    color: rgb(42, 37, 37);
 }
 button{
     background-color: #47b073;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 25px;
     font-size: 20px;
     margin-top: 20px;
     border-radius: 5px;
+    
 }
+button:hover{
+    background-color: #3498db;
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+button img{
+    width: 16px;
+}
+
 .imagem img{
     width: 400px;
     border: none;
