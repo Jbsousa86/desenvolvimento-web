@@ -4,8 +4,8 @@
 }
 body{
     
-    background-color:#FFFFFF;
-    color: #333;
+    background: linear-gradient(0deg,#E3FFF800,38deg,#E3FFF861);
+    color: #7D7987;
     font-size: 20px;
 }
 header{
@@ -17,9 +17,9 @@ header{
 }
 .logo{
     font-size: 24px;
-    color: #333;
+    color: #89C5CC;
     font-weight: bold;
-    margin: 28px;
+    margin-left: 48px;
 }
 .logo span{
     color: #3498db;
@@ -33,7 +33,7 @@ nav ul{
 nav ul li a{
     display: inline;
     text-decoration: none;
-    color: #666;
+    color: #7D7987;
     margin-right: 80px;
 }
 nav ul li a:hover{
@@ -54,16 +54,17 @@ main{
 }
 
 h2{
-    font-size: 40px;
-    color: #333;
+    font-size: 49px;
+    font-weight: 400;
+    color: #000000;
 }
 h2 span{
-    color: #3498db;
+    color: #89C5CC;
     font-weight: bold;
 } 
 p{
     font-size: 16px;
-    color: #666;
+    color: #7D7987;
     line-height: 25px;
     margin-top: 36px;
     margin-bottom: 32px;
@@ -71,13 +72,13 @@ p{
 }
 p span{
     font-weight: bold;
-    color: rgb(42, 37, 37);
+    color:#7D7987;
 }
 #button{
-    background-color: #47b073;
+    background-color:#69B99D;
     color: white;
     border: none;
-    padding: 8px 25px;
+    padding: 14px 32px 15px 32px;
     font-size: 20px;
     margin-top: 20px;
     border-radius: 4px;
