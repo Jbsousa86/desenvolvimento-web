@@ -1,3 +1,8 @@
-document.getElementById("button").addEventListener("click", function(){
-    window.open("https://wa.me/5563992225774?text=Bem%20vindo!")
-});
+const botao = document.getElementById('button');
+
+botao.addEventListener("click",() =>{
+    botao.style.backgroundColor = "lightgreen";
+    setTimeout(() =>{
+        botao.style.backgroundColor = "";
+    }, 300);
+})
